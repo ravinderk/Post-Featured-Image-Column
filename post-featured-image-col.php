@@ -18,10 +18,8 @@ add_filter('manage_post_posts_columns','ravs_featured_image_col');
  * @return Array         add 'Faetured Image' column to post list array 
  */
 function ravs_featured_image_col( $columns ){
-  $args = array(
-		'featured_image_col' => 'Featured Image'
-		);
-	return array_merge( $columns, $args);
+	$columns['featured_image_col'] = 'Featured Image';
+	return $columns;
 }
 
 // define what we want in post 'Featured Image' column
