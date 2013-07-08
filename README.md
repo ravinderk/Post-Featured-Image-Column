@@ -1,0 +1,2 @@
+Post-Featured-Image-Column
+==========================
