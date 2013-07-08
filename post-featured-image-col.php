@@ -1,8 +1,11 @@
 <?php
 /**
  * Plugin name: Post Featured Image Column
+ * Description: This plugin used to quickly see which post have featured image and wise-versa
  * Author: Mayank Gupat/Ravinder Kumar
  * Author Uri: http://blogdesignstudio.com
+ * version: 1.0
+ * License: GPLv2 or later
  */
 ?>
 <?php
@@ -25,7 +28,7 @@ function ravs_featured_image_col( $columns ){
 add_action('manage_post_posts_custom_column','ravs_featured_image_col_callback',10,2);
 
 /**
- * ravs_featured_image_col_callback fx used to show featured image of post if assign ,otherwisw alternative message
+ * ravs_featured_image_col_callback fx used to show featured image of post if assign ,otherwise alternative message
  * @param  string $column column name
  * @param  int $pid    Single post ID
  */
