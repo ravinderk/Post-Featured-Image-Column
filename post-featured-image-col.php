@@ -2,7 +2,7 @@
 /**
  * Plugin name: Post Featured Image Column
  * Description: This plugin used to quickly see which post have featured image and wise-versa
- * Author: Mayank Gupat/Ravinder Kumar
+ * Author: Mayank Gupta/Ravinder Kumar
  * Author Uri: http://blogdesignstudio.com
  * version: 1.0
  * License: GPLv2 or later
